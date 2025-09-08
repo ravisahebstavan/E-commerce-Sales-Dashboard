@@ -29,4 +29,4 @@ This project is a comprehensive analysis of a two-year dataset of online retail 
 The cleaned dataset (`online_retail_cleaned.csv`) is too large to be uploaded to GitHub. A screenshot of the first few rows is provided to show the final data structure, with the corrected `CustomerID` column and the new `Total_Price` column.
 
 ### Final Dashboard
-A screenshot of the final Power BI dashboard is included to showcase the completed report and key insights.
+The Final Power BI dashboard is included to showcase the completed report and key insights.
