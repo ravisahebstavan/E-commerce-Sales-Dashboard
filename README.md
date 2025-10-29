@@ -20,10 +20,15 @@ This project is a comprehensive analysis of a two-year dataset of online retail 
 2.  **Data Modeling (SQL):**
     I structured the cleaned data into a star schema by creating three dimension tables (`DimCustomer`, `DimProduct`, `DimTime`) from the main fact table. This normalized the data and prepared it for efficient querying and reporting.
 
-3.  **Data Visualization (Power BI):**
-    I created a two-page interactive dashboard in Power BI.
-    * **Page 1: Executive Overview** - Features key performance indicators (KPIs) and a bar chart of the top-selling products.
-    * **Page 2: Detailed Analysis** - Contains a line chart to visualize sales trends over time and a map to show sales by country.
+3.  **Data Visualization (Power BI):** I created a four-page interactive dashboard in Power BI to analyze online retail performance.
+
+    **Page 1: Revenue Overview** – shows quarterly revenue trends and the top 10 products by revenue.
+    
+    **Page 2: Key Metrics Overview** – includes two KPIs (Total Revenue and Active Customers) and a line chart tracking quarterly revenue growth.
+   
+    **Page 3: Regional and Product Insights** – features a geomap of revenue by country and a bar chart of average revenue per product description.
+   
+    **Page 4: Insights and Recommendations** – summarizes findings and suggests actions to improve sales and market performance.
 
 ### Cleaned Data
 The cleaned dataset (`online_retail_cleaned.csv`) is too large to be uploaded to GitHub. A screenshot of the first few rows is provided to show the final data structure, with the corrected `CustomerID` column and the new `Total_Price` column.
